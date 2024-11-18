@@ -3,8 +3,8 @@
 This backend api is designed for a brokerage firm to manage stock orders and customer finances. The service allows employees to interact with customer orders, including creating, listing, and canceling orders. It also supports deposit and withdrawal operations for customer funds. Additionally, an admin interface is provided to  match pending transactions and handle customer assets.
 
 ## Key Features:
-- **Order Management**: Create, list, and cancel orders for customers.
-- **Deposit and Withdrawal**: Deposit and withdraw funds for customers in `TRY` (Turkish Lira).
+- **Order Management**: Create, list and cancel orders for customers.
+- **Deposit and Withdrawal**: Deposit and withdraw money for `TRY` assets.
 - **Admin Features**: Admin users can match pending orders.
 - **Authentication**: All endpoints are authenticated with basic authentication.
 - **Transactional Integrity**: Ensures admin transactions are atomic and consistent, especially in asset handling and order matching.
