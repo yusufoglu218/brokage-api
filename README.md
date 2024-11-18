@@ -106,7 +106,7 @@ All endpoints are accessible with only the basic authentication (admin user and 
 
 | Column        | Type       | Description                         |
 |---------------|------------|-------------------------------------|
-| `orderId`     | Long       | The ID of the order.               |
+| `id`          | Long       | The ID of the order.               |
 | `customerId`  | Long       | The ID of the customer placing the order. |
 | `assetName`   | String     | The asset being bought or sold.     |
 | `orderSide`   | Enum       | The side of the order: `BUY` or `SELL`. |
@@ -128,20 +128,20 @@ All endpoints are accessible with only the basic authentication (admin user and 
 
 ## Build and Run application
 
-####Dev Environment
+#### Dev Environment
 
 > **```mvn clean install -Pdev```** to build project
 >
 > **```mvn spring-boot:run -Dspring-boot.run.profiles=dev```** to run the project
 
-####Prod Environment
+#### Prod Environment
 
 > **```mvn clean install -Pprod```** to build project
 >
 > **```mvn spring-boot:run -Dspring-boot.run.profiles=prod```** to run the project
 >
 >
-####Docker build
+#### Docker build
 
 > **```docker build -t brokerage-service .```** to build project
 >
