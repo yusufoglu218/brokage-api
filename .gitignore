@@ -1,4 +1,5 @@
-# Compiled class file
+# compiled class
+target/
 *.class
 
 # Log file
@@ -13,3 +14,9 @@
 *.zip
 *.tar.gz
 *.rar
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
